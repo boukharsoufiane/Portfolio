@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+html{
+    position: relative;
+}
+body{
+    background: linear-gradient(180deg,#3aa5a4,#7ae5e4);
+}
+header h1{
+    font-size: 40px;
+}
+
+h1,h6{
+    text-align: center;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+h5,h2{
+    font-family: 'Oswald', sans-serif;
+}
+h2 {
+    position: relative;
+    top: 30px;
+}
+
+.about_me{
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 300px;
+    width: 1210px;
+    margin-left: 20px;
+
+}
+.about_me h3{
+    position: relative;
+    top: 30px;
+}
+.bloc{
+    background-image: url(img/0029640836_10.jpg);
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15% 50%;
+    z-index: -1;
+    opacity: 20%;
+
+}
+p{
+    font-family: 'Lato', sans-serif;
+    color: #9ca0a0;
+}
+.about_me img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.about {
+    position: relative;
+    top: 20px;
+}
+h2{
+    padding: 15px;
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.projects{
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 480px;
+    width: 1210px;
+    margin-left: 20px;
+
+}
+#table{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.column {
+    float: left;
+    width: 31.50%;
+    padding: 10px;
+    height:200px; 
+  }
+  #table{
+   margin-left: 9px;
+  }
+
+  .column img{
+    width: 350px;
+    height: 240px;
+  }
+  #col{
+    text-align: center;
+  }
+  #col .column1{
+    text-align: left;
+  }
+  .work{
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 250px;
+    width: 1210px;
+    margin-left: 20px;
+
+  }
+.work p,h4{
+    margin-left: 35px;
+
+}
+.work p{
+    position: relative;
+    top:15px;
+}
+.education{
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 270px;
+    width: 1210px;
+    margin-left: 20px;
+
+}
+.column1 {
+    float: left;
+    width: 31.50%;
+    padding: 10px;
+    height:50px; 
+  }
+  #col{
+    margin-left: 25px;
+}
+.education h4{
+    margin-left: 0;
+}
+.langue{
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 220px;
+    width: 1210px;
+    margin-left: 20px;
+}
+.lang1 {
+    float: left;
+    width: 20.50%;
+    padding: 10px;
+    height:50px; 
+    margin-left: 25px;
+  }
+  .langue span{
+    font-weight: bold;
+    color: black;
+  }
+  .social{
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 220px;
+    width: 1210px;
+    margin-left: 20px;
+  }
+  .sos img{
+    width: 20px;
+    height: 20px;
+  }
+.sos{
+    float: left;
+    width: 20.50%;
+    padding: 10px;
+    height:50px; 
+    text-align: center;
+    
+}
+.sos ul li{
+    list-style-type: none;
+    text-align: left;
+}
+.sos ul li a{
+    color: #9ca0a0;
+    text-decoration: none;
+    margin: 8px;
+}
+.contact{
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 430px;
+    width: 1210px;
+    margin-left: 20px
+}
+.contact h3{
+   position: relative;
+   top: 30px;
+}
+input{
+    background-color: #e5e5e5;
+    width: 1100px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+form{
+    margin-left: 33px;
+    position: relative;
+    top: 30px;
+}
+.inp3{
+    height: 90px;
+}
+button{
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+}
+button:hover{
+    color: #3aa5a4;
+    transition: 0.4s;
+    cursor: pointer;
+}
+footer p{
+text-align: center;
+padding: 20px;
+position: relative;
+top: 3px;
+font-size: 12px;
+color: #fff;
+}
